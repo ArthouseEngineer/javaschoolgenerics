@@ -5,6 +5,7 @@ import java.util.Date;
 public class Product {
     private Date beginDate;
     private Date endDate;
+    private long productNumber;
 
     public Date getBeginDate() {
         return beginDate;
@@ -46,5 +47,4 @@ public class Product {
         this.productNumber = productNumber;
     }
 
-    private long productNumber;
 }

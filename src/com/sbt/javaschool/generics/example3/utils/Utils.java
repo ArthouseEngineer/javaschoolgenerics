@@ -1,4 +1,4 @@
-package com.sbt.javaschool.generics.example3;
+package com.sbt.javaschool.generics.example3.utils;
 
 import com.sbt.javaschool.generics.example3.entities.Product;
 

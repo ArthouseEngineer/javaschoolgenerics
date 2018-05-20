@@ -41,7 +41,7 @@ public class Run {
         countMapSecond.add(18);
         countMapSecond.add(13);
 
-        countMap.addAll(countMapSecond); 
+        countMap.addAll(countMapSecond);
 
         System.out.println("Before AddAll Call");
         System.out.println("Map size is : " + countMap.size());
@@ -63,6 +63,7 @@ public class Run {
 
         System.out.println("StringCountMap size is : " + stringCountMap.size());
         System.out.println("Count of element \"And\" is : " + stringCountMap.getCount("And"));
+
 
     }
 

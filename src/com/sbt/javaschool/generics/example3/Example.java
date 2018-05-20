@@ -1,16 +1,15 @@
 package com.sbt.javaschool.generics.example3;
 
-import com.sbt.javaschool.generics.example3.entities.Credit;
-import com.sbt.javaschool.rnd.generics.example3.entities.*;
+import com.sbt.javaschool.generics.example3.entities.*;
+import com.sbt.javaschool.generics.example3.utils.Utils;
 
 public class Example {
 
     public static void main(String[] args) {
 
-        Credit credit = CreditUtils.createCredit();
+        Product product = Utils.createProduct(Product.class);
 
-
-        System.out.println(credit);
+        System.out.println(product);
     }
 
 }

@@ -6,7 +6,7 @@ import com.sbt.javaschool.generics.hometasklessongenerics.interfaces.CountMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountMapImpl<T> implements CountMap<T> {
+public  class CountMapImpl<T> implements CountMap<T> {
 
     private Map<T, Integer> integerMap = new HashMap<>();
 
@@ -24,7 +24,7 @@ public class CountMapImpl<T> implements CountMap<T> {
     /**
      * Считает количество добавлений элемента в Map
      * @param element - Элемент чье количетсво добовлений будем считать
-     * @return
+     * @return Количество добавлений элемента в Map
      */
     @Override
     public int getCount(T element) {

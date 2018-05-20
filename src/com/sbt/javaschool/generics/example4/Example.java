@@ -4,9 +4,7 @@ import com.sbt.javaschool.generics.example3.entities.Credit;
 import com.sbt.javaschool.generics.example3.entities.Product;
 import com.sbt.javaschool.generics.example4.impl.GetOpenProducts;
 import com.sbt.javaschool.generics.example4.impl.MyObjectStoreImpl;
-import com.sbt.javaschool.rnd.generics.example4.impl.*;
-import com.sbt.javaschool.rnd.generics.example4.basicstore.*;
-import com.sbt.javaschool.rnd.generics.example3.entities.*;
+
 
 import java.math.BigDecimal;
 import java.util.*;

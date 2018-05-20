@@ -14,11 +14,11 @@ public class OrderedPair<K,V> implements Pair<K,V> {
 
     @Override
     public K getkey() {
-        return null;
+        return key;
     }
 
     @Override
     public V getValue() {
-        return null;
+        return value;
     }
 }
